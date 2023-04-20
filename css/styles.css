@@ -187,6 +187,8 @@ address {
 ol,
 ul {
   padding-left: 2rem;
+  --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
 ol,
