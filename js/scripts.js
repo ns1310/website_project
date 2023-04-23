@@ -31,7 +31,9 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
         
-
+    $('#myCarousel').on('slide.bs.carousel', function () {
+        // do something…
+      })
 
 });
 
